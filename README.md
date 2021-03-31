@@ -14,7 +14,7 @@ Because there are many points of failure when making a release.
 
 This CLI runs a thorough check to guarantee a successful package release:
 
-### npm
+#### npm
 - ✅ Assert npm version
 - ✅ Validate `package.json`
   - ✅ Check valid npm name
@@ -24,7 +24,7 @@ This CLI runs a thorough check to guarantee a successful package release:
 - ✅ Verify npm publish registry is reachable
 - ✅ Verify user is authenticated to publish registry and has permissions
 
-### Git
+#### Git
 - ✅ Assert Git version
 - ✅ Verify working directory is clean
 - ✅ Verify current branch is release branch
