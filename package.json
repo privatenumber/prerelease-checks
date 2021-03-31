@@ -3,11 +3,13 @@
 	"version": "0.0.0-semantic-release",
 	"description": "Run essential pre-release checks before releasing an npm package",
 	"keywords": [
+		"cli",
 		"npm",
 		"prerelease",
 		"publish",
 		"checks",
-		"github"
+		"github",
+		"standard-version"
 	],
 	"license": "MIT",
 	"repository": "privatenumber/prerelease-checks",
