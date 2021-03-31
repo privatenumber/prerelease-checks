@@ -1,0 +1,63 @@
+{
+	"name": "prerelease-checks",
+	"version": "0.0.0-semantic-release",
+	"description": "Run essential pre-release checks before releasing an npm package",
+	"keywords": [
+		"npm",
+		"prerelease",
+		"publish",
+		"checks",
+		"github"
+	],
+	"license": "MIT",
+	"repository": "privatenumber/prerelease-checks",
+	"funding": "https://github.com/privatenumber/prerelease-checks?sponsor=1",
+	"author": {
+		"name": "Hiroki Osame",
+		"email": "hiroki.osame@gmail.com"
+	},
+	"files": [
+		"dist",
+		"bin"
+	],
+	"main": "dist/index.js",
+	"bin": "bin/prerelease-checks.js",
+	"scripts": {
+		"lint": "eslint .",
+		"build": "rm -rf dist && tsup src --minify",
+		"build-watch": "watchlist src -- npm run build",
+		"start": "esno src"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"*.ts": "eslint"
+	},
+	"devDependencies": {
+		"@pvtnbr/eslint-config-typescript": "^0.1.13",
+		"@types/node": "^14.14.37",
+		"@types/semver": "^7.3.4",
+		"cac": "^6.7.2",
+		"eslint": "^7.23.0",
+		"esno": "^0.5.0",
+		"execa": "^5.0.0",
+		"husky": "^4.0.0",
+		"is-reachable": "^5.0.0",
+		"is-scoped": "^2.1.0",
+		"lint-staged": "^10.5.4",
+		"listr": "^0.14.3",
+		"read-pkg-up": "^7.0.1",
+		"registry-url": "^5.1.0",
+		"semver": "^7.3.5",
+		"tsup": "^4.8.21",
+		"typescript": "^4.2.3",
+		"validate-npm-package-name": "^3.0.0",
+		"watchlist": "^0.2.3"
+	},
+	"eslintConfig": {
+		"extends": "@pvtnbr/eslint-config-typescript"
+	}
+}
