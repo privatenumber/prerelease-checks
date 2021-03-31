@@ -5,7 +5,7 @@ Run essential pre-release checks before releasing an npm package.
 💞 Works well with [standard-version](https://github.com/conventional-changelog/standard-version)!
 
 <p align="center">
-  <img src=".github/demo.gif">
+  <img src=".github/preview.gif">
 </p>
 
 <sub>If you like this project, please star it & [follow me](https://github.com/privatenumber) to see what other cool projects I'm working on! ❤️</sub>
