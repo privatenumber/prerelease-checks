@@ -1,13 +1,16 @@
 # prerelease-checks <a href="https://npm.im/prerelease-checks"><img src="https://badgen.net/npm/v/prerelease-checks"></a> <a href="https://npm.im/prerelease-checks"><img src="https://badgen.net/npm/dm/prerelease-checks"></a> <a href="https://packagephobia.now.sh/result?p=prerelease-checks"><img src="https://packagephobia.now.sh/badge?p=prerelease-checks"></a> <a href="https://bundlephobia.com/result?p=prerelease-checks"><img src="https://badgen.net/bundlephobia/minzip/prerelease-checks"></a>
 
+<img src=".github/preview.gif">
 
-<!-- <screenshot> -->
+<br>
+<br>
+
 Run essential pre-release checks before releasing an npm package.
 
 💞 Works well with [standard-version](https://github.com/conventional-changelog/standard-version)!
 
-
 <sub>If you like this project, please star it & [follow me](https://github.com/privatenumber) to see what other cool projects I'm working on! ❤️</sub>
+
 
 ## 🙋‍♂️ Why?
 Because there are many points of failure when making a release.
