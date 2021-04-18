@@ -23,7 +23,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Install dependencies
-      run: npx pnpm i --frozen-lockfile
+      run: npx ci
     - name: Build
       run: npm run build
     - name: Lint
