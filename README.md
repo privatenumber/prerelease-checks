@@ -15,22 +15,22 @@ Because there are many points of failure when making a release.
 
 This CLI runs a thorough check to guarantee a successful package release:
 
-#### npm
-- ✅ Assert npm version
-- ✅ Validate `package.json`
-  - ✅ Check valid npm name
-  - ✅ Check valid semver version
-  - ✅ Verify public package
-- ✅ Verify npm registry is reachable (in case custom)
-- ✅ Verify npm publish registry is reachable
-- ✅ Verify user is authenticated to publish registry and has permissions
+#### ✅ npm
+- [x] Assert npm version
+- [x] Validate `package.json`
+  - [x] Check valid npm name
+  - [x] Check valid semver version
+  - [x] Verify public package
+- [x] Verify npm registry is reachable (in case custom)
+- [x] Verify npm publish registry is reachable
+- [x] Verify user is authenticated to publish registry and has permissions
 
-#### Git
-- ✅ Assert Git version
-- ✅ Verify working directory is clean
-- ✅ Verify current branch is release branch
-- ✅ Verify remote head exists
-- ✅ Verify current branch is identical to upstream
+#### ✅ Git
+- [x] Assert Git version
+- [x] Verify working directory is clean
+- [x] Verify current branch is release branch
+- [x] Verify remote head exists
+- [x] Verify current branch is identical to upstream
 
 ## 🚀 Install
 ```sh
